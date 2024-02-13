@@ -59,7 +59,14 @@ function App() {
         <div className="todo-list">
           {/* TODO:jsjjjss */}
 
-          <div className='adding-Task'>Task adder</div>
+          <div className='adding-Task'>
+            <div className='taskAdder'>
+              <form  action="">
+                <input className='taskInputField' placeholder="Nouvelle tâche" type="text" />
+              </form>
+              <button className='taskSubmitBtn'>Add It!!</button>
+            </div>
+            </div>
           <div className='doing-Task'>doing task</div>
           <div className='done-Task'> done Task</div>
           

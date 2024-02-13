@@ -37,9 +37,9 @@
 
 
 
-.todo-list input {
+/* .todo-list input {
   margin-bottom: 10px;
-}
+} */
 
 .todo-list ul {
   list-style: none;
@@ -55,7 +55,7 @@
   text-align: center;
  border: solid 1px black;
   width: 70vh;
-  background-color: aqua;
+  background-color: #4b4949;
   border-radius: 5px;
 }
 
@@ -67,10 +67,53 @@
 .quoteUpdater{
   margin-top: 15px;
   margin-left: 10px;
-  
- height: 20px;
+  height: 20px;
   width: 55px;
+  
 }
+
+.taskAdder{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* width: 10%; */
+  /* padding: 30px; */
+
+}
+
+.taskInputField{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease-in-out;
+}
+
+
+.taskSubmitBtn{
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  /* color: black; */
+  /* background-color: transparent; */
+  border-radius: 8px;
+  width: 4cm;
+  text-align: center;
+  text-wrap: nowrap;
+}
+ 
+
+
+
+
+
+
+
+
 
 
 .legal-section {
