@@ -32,10 +32,10 @@ function App() {
     }
   
    
-    // function updateQuote() {
-    //   const newQuote = getRandomQuote(quotesList);
-    //   setQuote(newQuote);
-    // }
+    function updateQuote() {
+      const newQuote = getRandomQuote(quotesList);
+      setQuote(newQuote);
+    }
 
 
   
@@ -49,6 +49,7 @@ function App() {
          
           <h2>Daily Quote:</h2>
           <p className='quotes'>{quote}</p>
+          <button onClick={updateQuote}></button>
         </div>
       </header>
       <main className="main">
