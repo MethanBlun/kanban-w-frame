@@ -59,7 +59,18 @@
   border-radius: 5px;
 }
 
-
+.quoteAndQuoteButton{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap
+}
+.quoteUpdater{
+  margin-top: 15px;
+  margin-left: 10px;
+  
+ height: 20px;
+  width: 55px;
+}
 
 
 .legal-section {

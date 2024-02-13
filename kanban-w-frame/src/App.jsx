@@ -48,8 +48,11 @@ function App() {
         <div className="quote-section">
          
           <h2>Daily Quote:</h2>
-          <p className='quotes'>{quote}</p>
-          <button onClick={updateQuote}></button>
+          <div className='quoteAndQuoteButton'>
+            <p className='quotes'>{quote}</p>
+          <button className='quoteUpdater' onClick={updateQuote}>update</button>
+          </div>
+          
         </div>
       </header>
       <main className="main">
